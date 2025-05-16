@@ -27,7 +27,7 @@ curl -L -o master.tar.gz https://github.com/nextcloud/desktop/archive/refs/heads
 
 # Step 5: Extract the archive
 echo "📤 Extracting master.tar.gz..."
-tar -xzvf master.tar.gz
+tar -xzf master.tar.gz
 
 # Step 6: Copy icons to appropriate directories
 echo "🎨 Installing icons..."
